@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 'use strict';
-
+ 
 require('dotenv').config();
 const { request } = require('@octokit/request');
 const { userInfoFetcher, totalCommitsFetcher } = require('./fetch');
